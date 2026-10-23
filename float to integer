@@ -1,0 +1,10 @@
+#include<iostream>
+using namepspace std;
+int main(){
+    float x=12.75;
+    int n= static_cast<int>(x);
+    
+    cout<<"integer:"<<n<<endl;
+    cout<<"float:"<<x<<endl;
+    return 0;
+}
